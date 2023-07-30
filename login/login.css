@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; 
+   padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+html, body{
+   display: grid;
+   place-items: center;
+   background-image: url(../assets/images/LoginBackground.png);
+   height: 100%;
+   background-position: center; 
+   background-attachment: fixed;
+   background-size: 100%;
+   background-repeat: no-repeat; 
+   background-size: cover;
+}
+
+.wrapper{
+   width: 580px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.wrapper .title{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   line-height: 80px;
+   background-color: #053675;
+   padding: 0 20px;
+   border-radius: 5px 5px 0 0;
+   color: #fff;
+   font-size: 32px;
+   font-weight: 600;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.wrapper form{
+   padding: 30px 20px 25px 20px;
+}
+
+.wrapper form .row{
+   height: 45px;
+   margin-bottom: 15px;
+   position: relative;
+}
+
+.wrapper form .row input{
+   height: 100%;
+   width: 100%;
+   padding-left: 60px;
+   outline: none;
+   border-radius: 5px;
+   border: 1px solid lightgrey;
+   font-size: 16px;
+}
+
+.wrapper form .row i{
+   position: absolute;
+   width: 46px;
+   height: 46px;
+   font-size: 18px;
+   color: #fff;
+   border-radius: 5px 0 0 5px;
+   background-color: #053675;
+   border-radius: 1px solid #053675;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.wrapper form .button input{
+   color:#fff;
+   font-size: 22px;
+   font-weight: 700;
+   padding-left: 0;
+   background-color: #053675;
+   border: 1px solid #053675;
+   cursor: pointer;
+   text-transform: uppercase;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   transition: all 0.3s ease;
+}
+
+form .button input:hover{
+   background-color: #042248;
+   cursor: pointer;
+
+}
